@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>challenge</title>
+    <style>
+body { width:1440px;
+        background-color: hsl(212, 45%, 89%);
+    display: flex;
+justify-content: center;
+margin: 200px 200px;
+}
+            #mainbox {
+                background-color: white;
+                display: flex;
+                flex-direction: column;
+                border-radius: 10px;
+                align-content: center;   
+            }
+            #contentbox {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+               margin: 10px;
+                max-width: 260px;
+                text-align: center;
+                justify-items: center;
+                 
+            }
+            .firstline {font-size: 15px;
+            font-weight: 700;
+        color: hsl(218, 44%, 22%)}
+            .secondline {font-size: 15px;
+            font-weight:400;
+        color:hsl(216, 15%, 48%)}
+
+            img {
+                width: 250px;
+                border-radius: 10px;
+                position:center;
+            }
+@media  (max-width:375px) {
+    body { margin: 20px 40px;
+    }
+}
+    </style>
+</head>
+<body>
+    <div id="mainbox">
+    <div id="contentbox">
+        <div>
+        <img src="image-qr-code.png">
+        </div>
+        <div>
+        <p class="firstline">
+            Improve your front-end skills by building projects
+        </p>
+        <p class="secondline">
+            Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+        </p>
+        </div>
+    </div>
+</div>
+    </div> 
+</body>
+</html>
